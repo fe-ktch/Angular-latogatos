@@ -1,0 +1,43 @@
+<!--
+* File: settlements.component.html
+* Author: Sangare F. Felisha
+* Copyright: 2022, Sangare F. Felisha
+* Group: SZOFT II N
+* Date: 2022-12-28
+* Github: https://github.com/fe-ktch/Angular-latogatos
+* Licenc: GNU GPL
+*-->
+
+<div class="card mx-auto" style="width: 40rem;">
+    <img class="card-img-top" src="assets/images/town.png" alt="Card image cap">
+    <div class="card-body">
+      <h1 class="card-title">Települések</h1>
+      <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Név</th>
+                <th scope="col">Megye</th>
+                <th scope="col">Terület (km²)</th>
+                <th scope="col">Népesség (fő)</th>
+                <th scope="col">Népsűrűség (fő/km²)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let setlement of settlements">        
+                <td>{{ setlement.name }}</td>
+                <td>{{ setlement.county }}</td>
+                <td>{{ setlement.area}}</td>
+                <td>{{ setlement.population }}</td>
+                <td>{{ setlement.populationDensity }}</td>
+            </tr>
+        </tbody>
+    </table>  
+    </div>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Sangare F. Felisha SZOFT II N 2022-12-28</li>
+        </ul>
+      <a href="https://github.com/fe-ktch/Angular-latogatos" class="card-link" target="_blank" title="Angular-latogatos" >GitHub</a>
+      <a href="https://szit.hu/doku.php?id=oktatas:web:feladatok:kliens#feladat_0104" class="card-link" target="_blank" title="Feladat 0104" >Feladat</a>
+    </div>
+</div>

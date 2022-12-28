@@ -1,0 +1,60 @@
+/*
+* File: component.css
+* Author: Sangare F. Felisha
+* Copyright: 2022, Sangare F. Felisha
+* Group: SZOFT II N
+* Date: 2022-12-28
+* Github: https://github.com/fe-ktch/Angular-latogatos
+* Licenc: GNU GPL
+*/
+
+body {
+    text-align: center;
+    color: rgb(0, 38, 141);
+}
+h1 {
+    padding: 10px;
+    color: rgb(74, 0, 192);
+}
+ul {
+    padding: 1rem;
+}
+li {
+    text-align: center;
+    color: rgb(74, 0, 192);
+}
+img {
+    width: auto;
+}
+thead {
+    background-color: rgb(198, 238, 230);
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(247, 255, 253);
+    color: rgb(46, 71, 184);
+    width: 600px;
+}
+td {
+    padding: 5px;
+}
+tr:hover {
+    background-color: rgb(198, 238, 230);
+}
+div {
+    text-align: center;
+    color: rgb(74, 0, 192);
+    padding-bottom: 1rem;
+}
+card {
+    padding: 5rem;
+}
+a {
+    color:   rgb(74, 0, 192);
+}
+a:hover {
+    color: rgb(80, 187, 172);
+}
